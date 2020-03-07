@@ -8,7 +8,7 @@ How to represent words:
 
    Problem: 
 
-   ![image-20200307222833851](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307222833851.png)
+   ![image-20200307222833851](img/image-20200307222833851.png)
 
 2. Discrete symbols - One hot encoding
 
@@ -23,31 +23,31 @@ How to represent words:
 
 **Word2Vec Overview**
 
-![image-20200307223133732](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307223133732.png)
+![image-20200307223133732](img/image-20200307223133732.png)
 
-![image-20200307223145415](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307223145415.png)
+![image-20200307223145415](img/image-20200307223145415.png)
 
-![image-20200307224744141](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307224744141.png)
+![image-20200307224744141](img/image-20200307224744141.png)
 
 Why: max 
 
 We want to acheive knowing what words occur in its context. which means it could accurately give a high probability estimate to those words that occur in the context.
 
-![image-20200307225030284](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307225030284.png)
+![image-20200307225030284](img/image-20200307225030284.png)
 
-![image-20200307225701571](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307225701571.png)
+![image-20200307225701571](img/image-20200307225701571.png)
 
 We should do some **derivations of gradient**
 
-![image-20200307230030574](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307230030574.png)
+![image-20200307230030574](img/image-20200307230030574.png)
 
-![image-20200307230143875](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307230143875.png)
+![image-20200307230143875](img/image-20200307230143875.png)
 
 Thus finally we obtain:
 
-![image-20200307230228216](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307230228216.png)
+![image-20200307230228216](img/image-20200307230228216.png)
 
-![image-20200307230309901](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200307230309901.png)
+![image-20200307230309901](img/image-20200307230309901.png)
 
 which is also = observation on this words - weighted average (expectation) of the models of the representations of each word multiply by the probability of it in the current model
 
