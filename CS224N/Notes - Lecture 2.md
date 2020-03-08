@@ -90,10 +90,10 @@ How to learning word embeddings:
 
 其实上第一节课的时候老师讲词向量的时候用了一个analogy的例子就让我很为之惊叹，其实只是一个很细微的差别。之前大多听的课老师举词向量的时候都会用这样类似的例子，比如“上海”和“中国”两个点连起来的线可能和“纽约”和“美国”连起来的线平行，表示他们比较类似，而这节课上manning举出的例子却有些不太一样（下图），他给出的这个例子是：king-man + woman -> queen. 虽然这个例子本质上和上面的通用例子很相似，但它感觉上更能揭示出词向量在表示semantic similarity上的优点，以及颇有些知识推理的味道在里面
 
-![image-20200308211032149](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200308211032149.png)
+![image-20200308211032149](img/image-20200308211032149.png)
 
 第二个感触很深的点在于写assignment1的时候，其中有一题是这样的：
 
-![image-20200308211311894](/Users/zhaoyuji/Desktop/Course Materials/CS224N/img/image-20200308211311894.png)
+![image-20200308211311894](img/image-20200308211311894.png)
 
 这是在我之前的课程、项目中从未被提及或者接触到的一点！考虑word embedding 会不会存在sexual racial or gender biases！这可能就是很不一样的 vision吧。。
