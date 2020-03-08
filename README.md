@@ -8,8 +8,8 @@
 
 **2020-03-08**
 
-- [ ] Lecture 2
-- [ ] Assignment 1
+- [x] Lecture 2
+- [x] Assignment 1
 
 **2020-03-07**
 
