@@ -4,7 +4,17 @@
 
 ### First Challange:
 
-20 Days to complete all CS224N lectures and assignments
+30 Days to complete all CS224N lectures and assignments
+
+**2020-03-10**
+
+- [ ] Lecture 4
+- [ ] Assignment 2
+
+**2020-03-09**
+
+- [x] Lecture 3
+- [x] Review: Word Vector （& Neural Networds） by hand  
 
 **2020-03-08**
 
